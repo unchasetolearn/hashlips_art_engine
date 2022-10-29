@@ -360,7 +360,7 @@ const startCreating = async () => {
       editionCount <= layerConfigurations[layerConfigIndex].growEditionSizeTo
     ) {
       let newDna = createDna(layers);
-      if (isDnaUnique(dnaList, newDna)) {
+      if (true) {
         let results = constructLayerToDna(newDna, layers);
         let loadedElements = [];
 
